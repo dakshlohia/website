@@ -1,0 +1,41 @@
+body{
+    background-color: aqua;
+    background-image: url(BACKGROUND.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    color: bisque;
+    font-size: x-large;
+    font-family: "lucida handwriting";
+}
+h1{
+    color: gold;
+    font-size: xx-large;
+    font-family: papyrus;
+}
+.grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+        }
+        .item{
+            position: relative;
+        }
+    
+        .item img{
+    
+            padding: 40px;
+        }
+    
+        
+        .item p{
+            font-weight: bold;
+            color:black;
+            font-family: Papyrus;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
